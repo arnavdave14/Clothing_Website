@@ -1,0 +1,29 @@
+{
+  "name": "elan-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "frames": "node scripts/frames.mjs",
+    "frames:demo": "node scripts/placeholder-frames.mjs"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.11",
+    "motion": "^12.23.12",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "puppeteer-core": "^25.17.0",
+    "sharp": "^0.34.3",
+    "typescript": "~5.9.2",
+    "vite": "^7.1.2"
+  }
+}
